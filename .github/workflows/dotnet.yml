@@ -43,9 +43,9 @@ jobs:
 
     - name: Authenticate with Firebase
       run: firebase login --token ${{ secrets.FIREBASE_AUTH_TOKEN }}
-
+    
     - name: Deploy to Firebase Hosting
-      run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_AUTH_TOKEN }} 
+      run: firebase deploy --only hosting --token ${{ secrets.FIREBASE_AUTH_TOKEN }}
 
 
 
