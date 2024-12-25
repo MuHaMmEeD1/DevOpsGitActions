@@ -1,13 +1,10 @@
 {
   "hosting": {
-    "public": "./",
+    "public": "DevOpsGitActions",
     "ignore": [
       "firebase.json",
       "**/.*",
-      "**/node_modules/**",
-      "**/*",  
-      "!DevOpsGitActions",  
-      "!DevOpsGitActions.sln" 
+      "**/node_modules/**"
     ]
   }
 }
