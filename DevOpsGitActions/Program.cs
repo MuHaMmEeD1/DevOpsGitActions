@@ -1,5 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// I am Muhamm?d N?biyev
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

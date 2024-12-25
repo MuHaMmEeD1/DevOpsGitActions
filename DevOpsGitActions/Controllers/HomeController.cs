@@ -2,8 +2,8 @@ using System.Diagnostics;
 using DevOpsGitActions.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DevOpsGitActions.Controllers
-{
+namespace DevOpsGitActions.Controllers { 
+    // I am Muhamm?d N?biyev
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
