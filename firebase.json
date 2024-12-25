@@ -5,9 +5,9 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      "**/*.exe",  
-      "**/*.sh",   
-      "**/*.bat"  
+      "**/*",  
+      "!DevOpsGitActions",  
+      "!DevOpsGitActions.sln" 
     ]
   }
 }
