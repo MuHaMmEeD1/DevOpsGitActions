@@ -34,7 +34,7 @@ jobs:
     - name: Set up Node.js (for Firebase CLI)
       uses: actions/setup-node@v2
       with:
-        node-version: '14'  # Firebase CLI üçün Node.js versiyası
+        node-version: '14'  
 
     - name: Install Firebase CLI
       run: npm install -g firebase-tools
